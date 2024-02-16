@@ -1,0 +1,39 @@
+1) instalar ambiente
+
+2) Criar pasta com estrutura back, back\src, front.
+
+3) Criar global.json v6.0
+dotnet new globaljson
+
+4) Criar o projeto de API dentro do src
+dotnet new webapi -n ProEventos.API
+
+5) Gerar certificados https de desenvolvimento
+dotnet dev-certs https --trust
+
+6) Rodar a API
+dotnet run -> roda o servidor
+dotnet watch run -> roda o servidor e reinicia o serviço quando alterar algum arquivo do projeto.
+
+7) Criar repositório remoto
+www.github.com
+
+8) Criar gitignore
+Na pasta principal do projeto: dotnet new gitignore
+
+9) Inicializar Git
+Na pasta principal do projeto: git init
+
+10) Gerar identidade global Git 
+git config --global user.email "pierre.roehrs@gmail.com"
+git config --global user.name "Pierre Roehrs"
+
+10) Fazer commit
+git commit -m "first commit"
+
+11) Vincular com repositório remoto
+git remote add origin https://github.com/pierreroehrs/ProEventos.git
+
+12) Enviar para repositório remoto
+git branch -M main
+git push -u origin main

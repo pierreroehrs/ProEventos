@@ -1,0 +1,58 @@
+1) Instalar .net 5.0 SDK
+https://dotnet.microsoft.com/pt-br/download
+
+2) Instalar Node versão LTS
+https://nodejs.org/
+Projeto de aula só funcionou com node 16: https://nodejs.org/dist/latest-v16.x/node-v16.20.2-x64.msi
+
+3) Instalar Angular 12
+https://angular.io/
+npm install -g @angular/cli@12
+
+4) Instalar Visual Studio Code
+https://code.visualstudio.com/
+
+5) Instalar o Postman
+https://www.postman.com/downloads/
+
+6) Instalar extensões do Visual Studio Code
+- C# de Microsoft
+- C# Extensions de JosKreativ
+- C# XML Documentations Comments de Keisuke Kato
+- NuGet Gallery de pcislo
+- .NET Core Tools de JunJan
+
+7) Instalar o GitHub
+https://git-scm.com/
+
+8) Clonar projeto da aula
+https://github.com/vsandrade/ProEventos
+git clone https://github.com/vsandrade/ProEventos.git
+
+9) Instalar pacotes do projeto via NPM
+ProEventos-App > Open in Integrated Terminal
+npm i
+
+10) Executar o projeto
+em proEventos-App > ng serve -o
+
+11) Criar diretório de Resources
+Back > src  > ProEventos.API > Resources
+
+12) Ajustar versão da SDK do DotNet
+Back > src > global.json > "version": "5.0.408"
+
+13) Instalar Entity Framework
+dotnet tool install --global dotnet-ef --version 5.0.2
+
+14) Criar bando de dados SQL Lite
+dotnet ef database update -s ProEventos.API
+
+15) Compilar e rodar api
+dotnet watch run -p ProEventos.API
+
+16) Instalar complemento do Chrome para json
+JSON Formatter
+
+17) 1) Instalar .net 6.0 SDK
+https://dotnet.microsoft.com/pt-br/download
